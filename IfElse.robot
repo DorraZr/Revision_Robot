@@ -5,8 +5,8 @@ ${nombre2}=    10
 *** Test Cases ***
 
 comparaison1
-    If ${nombre1}==${nombre2}:
+   IF  ${nombre1} == ${nombre2}
     Log To Console  ('les nombres sont égaux')
-
+   END
 
 
